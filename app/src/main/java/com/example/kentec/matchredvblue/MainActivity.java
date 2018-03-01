@@ -1,5 +1,6 @@
 package com.example.kentec.matchredvblue;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,8 +14,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    //public void startQuiz (View view){
-        //TextView textView = TextView;
-    //}
+    public void startQuiz (View view){
+        Intent intent = new Intent(this, Questions.class);
+        startActivity(intent);
+    }
 
 }
