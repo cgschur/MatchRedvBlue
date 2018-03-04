@@ -12,9 +12,4 @@ public class Questions extends AppCompatActivity {
         setContentView(R.layout.activity_questions);
     }
 
-    public void compatTest(View view){
-
-    }
-
-
 }
