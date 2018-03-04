@@ -30,7 +30,209 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textViewQ1"
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Player 1 Questions:"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewQ1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q1. Which color do you prefer?"
+                        android:textColor="@android:color/black"
+                        android:textSize="24sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/buttonQ1_A"
+                            android:layout_width="wrap_content"
+                            android:layout_height="122dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/red" />
+
+                        <Button
+                            android:id="@+id/buttonQ1_B"
+                            android:layout_width="wrap_content"
+                            android:layout_height="122dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/blue" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewQ2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q2. Do you like shotguns?"
+                        android:textColor="@android:color/black"
+                        android:textSize="24sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/buttonQ2_A"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Yes" />
+
+                        <Button
+                            android:id="@+id/buttonQ2_B"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="no" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewQ3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q3. Do you like AI?"
+                        android:textColor="@android:color/black"
+                        android:textSize="24sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/buttonQ3_A"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="No" />
+
+                        <Button
+                            android:id="@+id/buttonQ3_B"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Yes" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewQ4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q4. Do you hate Griff?"
+                        android:textColor="@android:color/black"
+                        android:textSize="24sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/buttonQ4_A"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Yes" />
+
+                        <Button
+                            android:id="@+id/buttonQ4_B"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="No" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewQ5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q5. What can pick up more chicks?"
+                        android:textColor="@android:color/black"
+                        android:textSize="24sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/buttonQ5_A"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Warthog" />
+
+                        <Button
+                            android:id="@+id/buttonQ5_B"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Tank" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Player 2 Questions:"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewQ1_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Q1. Which color do you prefer?"
@@ -43,14 +245,14 @@
                     android:orientation="horizontal">
 
                     <Button
-                        android:id="@+id/buttonQ1_A"
+                        android:id="@+id/buttonQ1_A2"
                         android:layout_width="wrap_content"
                         android:layout_height="122dp"
                         android:layout_weight="1"
                         android:background="@drawable/red" />
 
                     <Button
-                        android:id="@+id/buttonQ1_B"
+                        android:id="@+id/buttonQ1_B2"
                         android:layout_width="wrap_content"
                         android:layout_height="122dp"
                         android:layout_weight="1"
@@ -64,7 +266,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textViewQ2"
+                    android:id="@+id/textViewQ2_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Q2. Do you like shotguns?"
@@ -77,14 +279,14 @@
                     android:orientation="horizontal">
 
                     <Button
-                        android:id="@+id/buttonQ2_A"
+                        android:id="@+id/buttonQ2_A2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="Yes" />
 
                     <Button
-                        android:id="@+id/buttonQ2_B"
+                        android:id="@+id/buttonQ2_B2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -98,7 +300,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textViewQ3"
+                    android:id="@+id/textViewQ3_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Q3. Do you like AI?"
@@ -111,14 +313,14 @@
                     android:orientation="horizontal">
 
                     <Button
-                        android:id="@+id/buttonQ3_A"
+                        android:id="@+id/buttonQ3_A2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="No" />
 
                     <Button
-                        android:id="@+id/buttonQ3_B"
+                        android:id="@+id/buttonQ3_B2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -132,7 +334,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textViewQ4"
+                    android:id="@+id/textViewQ4_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Q4. Do you hate Griff?"
@@ -145,14 +347,14 @@
                     android:orientation="horizontal">
 
                     <Button
-                        android:id="@+id/buttonQ4_A"
+                        android:id="@+id/buttonQ4_A2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="Yes" />
 
                     <Button
-                        android:id="@+id/buttonQ4_B"
+                        android:id="@+id/buttonQ4_B2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -166,7 +368,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textViewQ5"
+                    android:id="@+id/textViewQ5_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Q5. What can pick up more chicks?"
@@ -179,14 +381,14 @@
                     android:orientation="horizontal">
 
                     <Button
-                        android:id="@+id/buttonQ5_A"
+                        android:id="@+id/buttonQ5_A2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="Warthog" />
 
                     <Button
-                        android:id="@+id/buttonQ5_B"
+                        android:id="@+id/buttonQ5_B2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
