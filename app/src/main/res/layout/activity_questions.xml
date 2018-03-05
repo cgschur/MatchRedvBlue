@@ -60,14 +60,16 @@
                             android:layout_width="wrap_content"
                             android:layout_height="122dp"
                             android:layout_weight="1"
-                            android:background="@drawable/red" />
+                            android:background="@drawable/red"
+                            android:onClick="buttonQ1_A" />
 
                         <Button
                             android:id="@+id/buttonQ1_B"
                             android:layout_width="wrap_content"
                             android:layout_height="122dp"
                             android:layout_weight="1"
-                            android:background="@drawable/blue" />
+                            android:background="@drawable/blue"
+                            android:onClick="buttonQ1_B" />
                     </LinearLayout>
                 </LinearLayout>
 
@@ -94,6 +96,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="buttonQ2_A"
                             android:text="Yes" />
 
                         <Button
@@ -101,6 +104,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="buttonQ2_B"
                             android:text="no" />
                     </LinearLayout>
                 </LinearLayout>
@@ -128,6 +132,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="buttonQ3_A"
                             android:text="No" />
 
                         <Button
@@ -135,6 +140,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="buttonQ3_B"
                             android:text="Yes" />
                     </LinearLayout>
                 </LinearLayout>
@@ -162,6 +168,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="buttonQ4_A"
                             android:text="Yes" />
 
                         <Button
@@ -169,6 +176,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="buttonQ4_B"
                             android:text="No" />
                     </LinearLayout>
                 </LinearLayout>
@@ -196,6 +204,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="buttonQ5_A"
                             android:text="Warthog" />
 
                         <Button
@@ -203,6 +212,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:onClick="buttonQ5_B"
                             android:text="Tank" />
                     </LinearLayout>
                 </LinearLayout>
@@ -249,14 +259,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="122dp"
                         android:layout_weight="1"
-                        android:background="@drawable/red" />
+                        android:background="@drawable/red"
+                        android:onClick="buttonQ1_A2" />
 
                     <Button
                         android:id="@+id/buttonQ1_B2"
                         android:layout_width="wrap_content"
                         android:layout_height="122dp"
                         android:layout_weight="1"
-                        android:background="@drawable/blue" />
+                        android:background="@drawable/blue"
+                        android:onClick="buttonQ1_B2" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -283,6 +295,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:onClick="buttonQ2_A2"
                         android:text="Yes" />
 
                     <Button
@@ -290,6 +303,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:onClick="buttonQ2_B2"
                         android:text="no" />
                 </LinearLayout>
             </LinearLayout>
@@ -317,6 +331,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:onClick="buttonQ3_A2"
                         android:text="No" />
 
                     <Button
@@ -324,6 +339,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:onClick="buttonQ3_B2"
                         android:text="Yes" />
                 </LinearLayout>
             </LinearLayout>
@@ -351,6 +367,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:onClick="buttonQ4_A2"
                         android:text="Yes" />
 
                     <Button
@@ -358,6 +375,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:onClick="buttonQ4_B2"
                         android:text="No" />
                 </LinearLayout>
             </LinearLayout>
@@ -385,6 +403,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:onClick="buttonQ5_A2"
                         android:text="Warthog" />
 
                     <Button
@@ -392,6 +411,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:onClick="buttonQ5_B2"
                         android:text="Tank" />
                 </LinearLayout>
             </LinearLayout>
@@ -404,6 +424,7 @@
                 android:id="@+id/buttonSubmit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="startResults"
                 android:text="Submit Answers" />
 
         </LinearLayout>
